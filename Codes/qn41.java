@@ -1,0 +1,14 @@
+import java.util.*;
+public class qn41 {
+    public static void main(String arg[]){
+        Scanner in = new Scanner(System.in);
+        int n=in.nextInt();
+        int m=in.nextInt();
+        int sum=0;
+        for(int i=1;i<=m;i++){
+            System.out.println(n*i);
+            sum+=n*i;
+        }
+        System.out.println(sum);
+    }
+}
